@@ -1,0 +1,646 @@
+{
+  "nodes": [
+    {
+      "name": "Zoude/Travaux"
+    },
+    {
+      "name": "Carte crédit"
+    },
+    {
+      "name": "Clients"
+    },
+    {
+      "name": "Energie"
+    },
+    {
+      "name": "Frais"
+    },
+    {
+      "name": "Retraits"
+    },
+    {
+      "name": "Santé"
+    },
+    {
+      "name": "Soustraitance"
+    },
+    {
+      "name": "Transport"
+    },
+    {
+      "name": "Zoude"
+    },
+    {
+      "name": "Enfants"
+    },
+    {
+      "name": "Habillement"
+    },
+    {
+      "name": "Loisirs"
+    },
+    {
+      "name": "Mutuelle"
+    },
+    {
+      "name": "Salaire"
+    },
+    {
+      "name": "Sombreffe"
+    },
+    {
+      "name": "Tiers"
+    },
+    {
+      "name": "Voiture"
+    },
+    {
+      "name": "Héritage"
+    },
+    {
+      "name": "Allocations"
+    },
+    {
+      "name": "BE29068900445064"
+    },
+    {
+      "name": "BE48001463519327"
+    },
+    {
+      "name": "BE56063204597788"
+    },
+    {
+      "name": "BE85001641483106"
+    },
+    {
+      "name": "Alimentation/Boulangerie"
+    },
+    {
+      "name": "Alimentation/En route"
+    },
+    {
+      "name": "Alimentation/HelloFresh"
+    },
+    {
+      "name": "Alimentation/Supermarché"
+    },
+    {
+      "name": "Carte crédit/Bernard"
+    },
+    {
+      "name": "Carte crédit/Elodie"
+    },
+    {
+      "name": "Carte crédit/Enspirit"
+    },
+    {
+      "name": "Energie/Eau"
+    },
+    {
+      "name": "Energie/Electricité"
+    },
+    {
+      "name": "Energie/Mazout"
+    },
+    {
+      "name": "Enfants/Crèche"
+    },
+    {
+      "name": "Enfants/Ecole"
+    },
+    {
+      "name": "Enfants/Stages"
+    },
+    {
+      "name": "Frais/Banque"
+    },
+    {
+      "name": "Frais/Matos"
+    },
+    {
+      "name": "Frais/Téléphone & Internet"
+    },
+    {
+      "name": "Loisirs/Lecture"
+    },
+    {
+      "name": "Loisirs/Sorties & Vacances"
+    },
+    {
+      "name": "Santé/Assurance"
+    },
+    {
+      "name": "Santé/Clinique"
+    },
+    {
+      "name": "Santé/Coiffeur"
+    },
+    {
+      "name": "Santé/Mutuelle"
+    },
+    {
+      "name": "Santé/Pharmacie"
+    },
+    {
+      "name": "Santé/Pédiatre"
+    },
+    {
+      "name": "Sombreffe/Cadastre"
+    },
+    {
+      "name": "Sombreffe/Crédit"
+    },
+    {
+      "name": "Sombreffe/Travaux"
+    },
+    {
+      "name": "Soustraitance/Comptabilité"
+    },
+    {
+      "name": "Tiers/Associations"
+    },
+    {
+      "name": "Tiers/Cadeaux"
+    },
+    {
+      "name": "Tiers/Dons"
+    },
+    {
+      "name": "Tiers/Proches"
+    },
+    {
+      "name": "Transport/Cambio"
+    },
+    {
+      "name": "Transport/Commun"
+    },
+    {
+      "name": "Transport/Parking"
+    },
+    {
+      "name": "Voiture/Amendes"
+    },
+    {
+      "name": "Voiture/Assurance"
+    },
+    {
+      "name": "Voiture/Entretien"
+    },
+    {
+      "name": "Voiture/Essence"
+    },
+    {
+      "name": "Zoude/Kots"
+    },
+    {
+      "name": "Alimentation"
+    }
+  ],
+  "links": [
+    {
+      "source": "BE29068900445064",
+      "target": "Alimentation",
+      "value": 85.0
+    },
+    {
+      "source": "BE29068900445064",
+      "target": "Carte crédit",
+      "value": 3486.0
+    },
+    {
+      "source": "Clients",
+      "target": "BE29068900445064",
+      "value": 72566.0
+    },
+    {
+      "source": "BE29068900445064",
+      "target": "Energie",
+      "value": 971.0
+    },
+    {
+      "source": "BE29068900445064",
+      "target": "Frais",
+      "value": 935.0
+    },
+    {
+      "source": "BE29068900445064",
+      "target": "Retraits",
+      "value": 116.0
+    },
+    {
+      "source": "BE29068900445064",
+      "target": "Santé",
+      "value": 272.0
+    },
+    {
+      "source": "BE29068900445064",
+      "target": "Soustraitance",
+      "value": 1191.0
+    },
+    {
+      "source": "BE29068900445064",
+      "target": "Transport",
+      "value": 434.0
+    },
+    {
+      "source": "BE29068900445064",
+      "target": "Zoude",
+      "value": 195.0
+    },
+    {
+      "source": "BE48001463519327",
+      "target": "Alimentation",
+      "value": 192.0
+    },
+    {
+      "source": "BE48001463519327",
+      "target": "Carte crédit",
+      "value": 2771.0
+    },
+    {
+      "source": "BE48001463519327",
+      "target": "Enfants",
+      "value": 159.0
+    },
+    {
+      "source": "BE48001463519327",
+      "target": "Frais",
+      "value": 18.0
+    },
+    {
+      "source": "BE48001463519327",
+      "target": "Habillement",
+      "value": 399.0
+    },
+    {
+      "source": "BE48001463519327",
+      "target": "Loisirs",
+      "value": 867.0
+    },
+    {
+      "source": "Mutuelle",
+      "target": "BE48001463519327",
+      "value": 930.0
+    },
+    {
+      "source": "BE48001463519327",
+      "target": "Retraits",
+      "value": 640.0
+    },
+    {
+      "source": "Salaire",
+      "target": "BE48001463519327",
+      "value": 13378.0
+    },
+    {
+      "source": "BE48001463519327",
+      "target": "Santé",
+      "value": 213.0
+    },
+    {
+      "source": "BE48001463519327",
+      "target": "Sombreffe",
+      "value": 1158.0
+    },
+    {
+      "source": "BE48001463519327",
+      "target": "Tiers",
+      "value": 389.0
+    },
+    {
+      "source": "BE48001463519327",
+      "target": "Transport",
+      "value": 26.0
+    },
+    {
+      "source": "BE48001463519327",
+      "target": "Voiture",
+      "value": 730.0
+    },
+    {
+      "source": "BE56063204597788",
+      "target": "Alimentation",
+      "value": 242.0
+    },
+    {
+      "source": "BE56063204597788",
+      "target": "Carte crédit",
+      "value": 895.0
+    },
+    {
+      "source": "BE56063204597788",
+      "target": "Energie",
+      "value": 85.0
+    },
+    {
+      "source": "BE56063204597788",
+      "target": "Frais",
+      "value": 43.0
+    },
+    {
+      "source": "Héritage",
+      "target": "BE56063204597788",
+      "value": 3395.0
+    },
+    {
+      "source": "BE56063204597788",
+      "target": "Loisirs",
+      "value": 1024.0
+    },
+    {
+      "source": "BE56063204597788",
+      "target": "Retraits",
+      "value": 300.0
+    },
+    {
+      "source": "BE56063204597788",
+      "target": "Santé",
+      "value": 82.0
+    },
+    {
+      "source": "BE56063204597788",
+      "target": "Tiers",
+      "value": 561.0
+    },
+    {
+      "source": "BE56063204597788",
+      "target": "Voiture",
+      "value": 60.0
+    },
+    {
+      "source": "BE56063204597788",
+      "target": "Zoude",
+      "value": 2020.0
+    },
+    {
+      "source": "BE85001641483106",
+      "target": "Alimentation",
+      "value": 3374.0
+    },
+    {
+      "source": "Allocations",
+      "target": "BE85001641483106",
+      "value": 1634.0
+    },
+    {
+      "source": "BE85001641483106",
+      "target": "Energie",
+      "value": 506.0
+    },
+    {
+      "source": "BE85001641483106",
+      "target": "Enfants",
+      "value": 1827.0
+    },
+    {
+      "source": "BE85001641483106",
+      "target": "Frais",
+      "value": 26.0
+    },
+    {
+      "source": "BE85001641483106",
+      "target": "Habillement",
+      "value": 71.0
+    },
+    {
+      "source": "BE85001641483106",
+      "target": "Loisirs",
+      "value": 450.0
+    },
+    {
+      "source": "BE85001641483106",
+      "target": "Retraits",
+      "value": 885.0
+    },
+    {
+      "source": "BE85001641483106",
+      "target": "Santé",
+      "value": 506.0
+    },
+    {
+      "source": "BE85001641483106",
+      "target": "Sombreffe",
+      "value": 9481.0
+    },
+    {
+      "source": "BE85001641483106",
+      "target": "Tiers",
+      "value": 733.0
+    },
+    {
+      "source": "BE85001641483106",
+      "target": "Transport",
+      "value": 233.0
+    },
+    {
+      "source": "BE85001641483106",
+      "target": "Voiture",
+      "value": 1309.0
+    },
+    {
+      "source": "Alimentation",
+      "target": "Alimentation/Boulangerie",
+      "value": 775.0
+    },
+    {
+      "source": "Alimentation",
+      "target": "Alimentation/En route",
+      "value": 420.0
+    },
+    {
+      "source": "Alimentation",
+      "target": "Alimentation/HelloFresh",
+      "value": 114.0
+    },
+    {
+      "source": "Alimentation",
+      "target": "Alimentation/Supermarché",
+      "value": 2584.0
+    },
+    {
+      "source": "Carte crédit",
+      "target": "Carte crédit/Bernard",
+      "value": 895.0
+    },
+    {
+      "source": "Carte crédit",
+      "target": "Carte crédit/Elodie",
+      "value": 2771.0
+    },
+    {
+      "source": "Carte crédit",
+      "target": "Carte crédit/Enspirit",
+      "value": 3486.0
+    },
+    {
+      "source": "Energie",
+      "target": "Energie/Eau",
+      "value": 137.0
+    },
+    {
+      "source": "Energie",
+      "target": "Energie/Electricité",
+      "value": 454.0
+    },
+    {
+      "source": "Energie",
+      "target": "Energie/Mazout",
+      "value": 971.0
+    },
+    {
+      "source": "Enfants",
+      "target": "Enfants/Crèche",
+      "value": 1839.0
+    },
+    {
+      "source": "Enfants",
+      "target": "Enfants/Ecole",
+      "value": 87.0
+    },
+    {
+      "source": "Enfants",
+      "target": "Enfants/Stages",
+      "value": 60.0
+    },
+    {
+      "source": "Frais",
+      "target": "Frais/Banque",
+      "value": 120.0
+    },
+    {
+      "source": "Frais",
+      "target": "Frais/Matos",
+      "value": 64.0
+    },
+    {
+      "source": "Frais",
+      "target": "Frais/Téléphone & Internet",
+      "value": 838.0
+    },
+    {
+      "source": "Loisirs",
+      "target": "Loisirs/Lecture",
+      "value": 54.0
+    },
+    {
+      "source": "Loisirs",
+      "target": "Loisirs/Sorties & Vacances",
+      "value": 2287.0
+    },
+    {
+      "source": "Santé",
+      "target": "Santé/Assurance",
+      "value": 272.0
+    },
+    {
+      "source": "Santé",
+      "target": "Santé/Clinique",
+      "value": 193.0
+    },
+    {
+      "source": "Santé",
+      "target": "Santé/Coiffeur",
+      "value": 10.0
+    },
+    {
+      "source": "Santé",
+      "target": "Santé/Mutuelle",
+      "value": 54.0
+    },
+    {
+      "source": "Santé",
+      "target": "Santé/Pharmacie",
+      "value": 505.0
+    },
+    {
+      "source": "Santé",
+      "target": "Santé/Pédiatre",
+      "value": 39.0
+    },
+    {
+      "source": "Sombreffe",
+      "target": "Sombreffe/Cadastre",
+      "value": 813.0
+    },
+    {
+      "source": "Sombreffe",
+      "target": "Sombreffe/Crédit",
+      "value": 9024.0
+    },
+    {
+      "source": "Sombreffe",
+      "target": "Sombreffe/Travaux",
+      "value": 802.0
+    },
+    {
+      "source": "Soustraitance",
+      "target": "Soustraitance/Comptabilité",
+      "value": 1191.0
+    },
+    {
+      "source": "Tiers",
+      "target": "Tiers/Associations",
+      "value": 12.0
+    },
+    {
+      "source": "Tiers",
+      "target": "Tiers/Cadeaux",
+      "value": 1132.0
+    },
+    {
+      "source": "Tiers",
+      "target": "Tiers/Dons",
+      "value": 379.0
+    },
+    {
+      "source": "Tiers",
+      "target": "Tiers/Proches",
+      "value": 160.0
+    },
+    {
+      "source": "Transport",
+      "target": "Transport/Cambio",
+      "value": 302.0
+    },
+    {
+      "source": "Transport",
+      "target": "Transport/Commun",
+      "value": 365.0
+    },
+    {
+      "source": "Transport",
+      "target": "Transport/Parking",
+      "value": 26.0
+    },
+    {
+      "source": "Voiture",
+      "target": "Voiture/Amendes",
+      "value": 45.0
+    },
+    {
+      "source": "Voiture",
+      "target": "Voiture/Assurance",
+      "value": 610.0
+    },
+    {
+      "source": "Voiture",
+      "target": "Voiture/Entretien",
+      "value": 319.0
+    },
+    {
+      "source": "Voiture",
+      "target": "Voiture/Essence",
+      "value": 1125.0
+    },
+    {
+      "source": "Zoude",
+      "target": "Zoude/Kots",
+      "value": 20.0
+    },
+    {
+      "source": "Zoude",
+      "target": "Zoude/Travaux",
+      "value": 2195.0
+    }
+  ]
+}

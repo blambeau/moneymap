@@ -1,0 +1,322 @@
+{
+  "name": "All",
+  "size": 26521,
+  "children": [
+    {
+      "name": "Zoude",
+      "size": 443,
+      "children": [
+        {
+          "name": "Kots",
+          "size": 4
+        },
+        {
+          "name": "Travaux",
+          "size": 439
+        }
+      ]
+    },
+    {
+      "name": "Carte crédit",
+      "size": 1437,
+      "children": [
+        {
+          "name": "Bernard",
+          "size": 181
+        },
+        {
+          "name": "Elodie",
+          "size": 557
+        },
+        {
+          "name": "Enspirit",
+          "size": 699
+        }
+      ]
+    },
+    {
+      "name": "Clients",
+      "size": 0,
+      "children": [
+
+      ]
+    },
+    {
+      "name": "Energie",
+      "size": 318,
+      "children": [
+        {
+          "name": "Eau",
+          "size": 30
+        },
+        {
+          "name": "Electricité",
+          "size": 93
+        },
+        {
+          "name": "Mazout",
+          "size": 195
+        }
+      ]
+    },
+    {
+      "name": "Enfants",
+      "size": 401,
+      "children": [
+        {
+          "name": "Crèche",
+          "size": 370
+        },
+        {
+          "name": "Ecole",
+          "size": 19
+        },
+        {
+          "name": "Stages",
+          "size": 12
+        }
+      ]
+    },
+    {
+      "name": "Epargne",
+      "size": 12370,
+      "children": [
+        {
+          "name": "Enfants",
+          "size": 370
+        },
+        {
+          "name": "Enspirit",
+          "size": 12000
+        }
+      ]
+    },
+    {
+      "name": "Etat",
+      "size": 5954,
+      "children": [
+        {
+          "name": "Charges sociales",
+          "size": 1531
+        },
+        {
+          "name": "Commune",
+          "size": 19
+        },
+        {
+          "name": "Précompte & impôts",
+          "size": 2037
+        },
+        {
+          "name": "TVA",
+          "size": 2367
+        }
+      ]
+    },
+    {
+      "name": "Frais",
+      "size": 224,
+      "children": [
+        {
+          "name": "Banque",
+          "size": 41
+        },
+        {
+          "name": "Matos",
+          "size": 13
+        },
+        {
+          "name": "Téléphone & Internet",
+          "size": 170
+        }
+      ]
+    },
+    {
+      "name": "Habillement",
+      "size": 97,
+      "children": [
+
+      ]
+    },
+    {
+      "name": "Loisirs",
+      "size": 476,
+      "children": [
+        {
+          "name": "Lecture",
+          "size": 13
+        },
+        {
+          "name": "Sorties & Vacances",
+          "size": 463
+        }
+      ]
+    },
+    {
+      "name": "Mutuelle",
+      "size": 0,
+      "children": [
+
+      ]
+    },
+    {
+      "name": "Retraits",
+      "size": 389,
+      "children": [
+
+      ]
+    },
+    {
+      "name": "Santé",
+      "size": 227,
+      "children": [
+        {
+          "name": "Assurance",
+          "size": 55
+        },
+        {
+          "name": "Clinique",
+          "size": 42
+        },
+        {
+          "name": "Coiffeur",
+          "size": 2
+        },
+        {
+          "name": "Mutuelle",
+          "size": 12
+        },
+        {
+          "name": "Pharmacie",
+          "size": 108
+        },
+        {
+          "name": "Pédiatre",
+          "size": 8
+        }
+      ]
+    },
+    {
+      "name": "Sombreffe",
+      "size": 2142,
+      "children": [
+        {
+          "name": "Cadastre",
+          "size": 163
+        },
+        {
+          "name": "Crédit",
+          "size": 1812
+        },
+        {
+          "name": "Travaux",
+          "size": 167
+        }
+      ]
+    },
+    {
+      "name": "Soustraitance",
+      "size": 243,
+      "children": [
+        {
+          "name": "Comptabilité",
+          "size": 243
+        }
+      ]
+    },
+    {
+      "name": "Tiers",
+      "size": 362,
+      "children": [
+        {
+          "name": "Associations",
+          "size": 3
+        },
+        {
+          "name": "Cadeaux",
+          "size": 240
+        },
+        {
+          "name": "Dons",
+          "size": 83
+        },
+        {
+          "name": "Proches",
+          "size": 36
+        }
+      ]
+    },
+    {
+      "name": "Transport",
+      "size": 146,
+      "children": [
+        {
+          "name": "Cambio",
+          "size": 63
+        },
+        {
+          "name": "Commun",
+          "size": 77
+        },
+        {
+          "name": "Parking",
+          "size": 6
+        }
+      ]
+    },
+    {
+      "name": "Unclassified",
+      "size": 21,
+      "children": [
+        {
+          "name": "All",
+          "size": 21
+        }
+      ]
+    },
+    {
+      "name": "Voiture",
+      "size": 429,
+      "children": [
+        {
+          "name": "Amendes",
+          "size": 9
+        },
+        {
+          "name": "Assurance",
+          "size": 122
+        },
+        {
+          "name": "Entretien",
+          "size": 65
+        },
+        {
+          "name": "Essence",
+          "size": 233
+        }
+      ]
+    },
+    {
+      "name": "Alimentation",
+      "size": 842,
+      "children": [
+        {
+          "name": "Boulangerie",
+          "size": 171
+        },
+        {
+          "name": "En route",
+          "size": 119
+        },
+        {
+          "name": "HelloFresh",
+          "size": 24
+        },
+        {
+          "name": "Supermarché",
+          "size": 528
+        }
+      ]
+    }
+  ]
+}

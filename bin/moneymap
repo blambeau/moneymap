@@ -1,0 +1,2 @@
+require 'moneymap'
+Moneymap::Command.new.call(ARGV)
