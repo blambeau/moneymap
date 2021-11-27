@@ -14,7 +14,7 @@ module Moneymap
     end
 
     def call(t)
-      split = category.split('/')
+      split = (category || '').split('/')
       {
         category: split[0],
         subcategory: split[1]

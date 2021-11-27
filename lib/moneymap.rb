@@ -2,6 +2,7 @@ require 'path'
 require 'csv'
 require 'ostruct'
 require 'alf/core'
+require 'bmg'
 require 'json'
 module Moneymap
 end # module Moneymap

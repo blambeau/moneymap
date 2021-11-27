@@ -19,7 +19,9 @@ module Moneymap
       def sources
         files.map{|f|
           case f.to_s
+          when /\.loop/ then Loop.new([f])
           when /\.belfius/ then Belfius.new([f])
+          when /\.bnp2/    then Bnp2.new([f])
           when /\.bnp/     then Bnp.new([f])
           else
             raise "Unable to source file `#{f}`"

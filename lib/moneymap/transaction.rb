@@ -34,7 +34,7 @@ module Moneymap
     end    
 
     def divide_by(x)
-      merge(amount: self.amount.to_i / x.to_i)
+      merge(amount: self.amount.to_f / x.to_f)
     end
 
   end # class Transaction

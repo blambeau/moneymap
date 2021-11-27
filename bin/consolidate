@@ -1,0 +1,5 @@
+#!/bin/sh
+bundle exec ruby -Ilib bin/moneymap --rules rules/rules.rb data/20210612/BE29* --credit --details --out=csvh --category=Sombreffe,Loisirs,Santé,Enfants,Energie,Voiture
+bundle exec ruby -Ilib bin/moneymap --rules rules/rules.rb data/20210612/BE48* --credit --details --out=csv --category=Sombreffe,Paiements,Loisirs,Alimentation,Voiture,Santé,Enfants,Creditcard
+bundle exec ruby -Ilib bin/moneymap --rules rules/rules.rb data/20210612/BE56* --credit --details --out=csv --category=Sombreffe,Paiements,Loisirs,Alimentation,Voiture,Santé,Enfants,Creditcard
+bundle exec ruby -Ilib bin/moneymap --rules rules/rules.rb data/20210612/BE85* --details --out=csv

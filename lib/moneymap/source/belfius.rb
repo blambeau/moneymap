@@ -5,12 +5,12 @@ module Moneymap
       def attributes
         {
           id: ->(t){ "#{t[2]}/#{t[3]}" },
-          at: 1,
+          at: ->(t){ Date.parse(t[1]) rescue t[1] },
           account: ->(t){ "#{t[0]}".gsub(/\s/,'') },
           to_account: ->(t){ "#{t[4]}".gsub(/\s/,'') },
           to_name: 5,
           details: 8,
-          amount: 10
+          amount: ->(t){ t[10] && t[10].gsub(/\./,'').gsub(/,/,'.') }
         }
       end
 

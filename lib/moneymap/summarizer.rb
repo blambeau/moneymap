@@ -1,20 +1,62 @@
 module Moneymap
   class Summarizer
 
-    def summarize(enum)
-      by = Alf::Types::AttrList.coerce([:account, :category])
-      summarization = Alf::Types::Summarization.coerce(:total => Alf::Aggregator.sum(:amount))
-      ordering = Alf::Types::Ordering.coerce([:total])
-      grouping = Alf::Types::AttrList.coerce([:account])
+    ALL = 100_000
 
-      operand = enum.map{|t| t.to_h}
-      operand = Alf::Engine::Summarize::Hash.new operand, by, summarization, false
-      operand = Alf::Engine::Sort::InMemory.new operand, ordering
-      operand = Alf::Engine::Group::Hash.new operand, grouping, :details, true
-      operand.map{|t|
-        t.merge(:details => Alf::Engine::Sort::InMemory.new(t[:details], ordering).to_a)
-      }
-      operand.to_a
+    def summarize(enum, mode, per)
+        base = Bmg::Relation
+            .new(enum.to_a.map(&:to_h))
+            .extend(:pivot => ->(t){ t[:at].strftime('%Y') })
+        summarized = case mode
+        when :evolution
+            evolution_per_xxx(base, per)
+        when :balance
+            balance_per_xxx(base, per)
+        else
+            raise ArgumentError, "Unrecognized #{mode}"
+        end
+        Transactions.new(summarized)
+    end
+
+    def balance_per_account_details(base)
+        base
+            .summarize([:category, :account], :amount => :sum)
+            .group([:account, :amount], :details, array: true)
+            .extend(:total => ->(t){
+                t[:details].inject(0){|memo,t| memo+t[:amount] }
+            })
+            .page([:total], 1, :page_size => ALL)
+            .to_a
+    end
+
+    def evolution_per_xxx(base, xxx)
+        series = base.project([:pivot]).map{|t| t[:pivot] }.sort
+        base
+            .summarize([:pivot] + Array(xxx), :amount => :sum)
+            .summarize(Array(xxx), :total => Bmg::Summarizer.value_by(:amount, {
+                :by => :pivot,
+                :series => series,
+                :default => 0.0,
+                :symbolize => false
+            }))
+            .unwrap(:total)
+            .page(series.reverse[1..-1], 1, :page_size => ALL)
+    end
+
+    def balance_per_account(base)
+        balance_per_xxx(base, :account)
+    end
+
+    def balance_per_category(base)
+        balance_per_xxx(base, :category)
+    end
+
+    def balance_per_xxx(base, xxx)
+        base
+            .summarize(Array(xxx), :amount => :sum)
+            .rename(:amount => :total)
+            .page([:total], 1, :page_size => ALL)
+            .to_a
     end
 
   end # class Summarizer

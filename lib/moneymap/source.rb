@@ -36,7 +36,7 @@ module Moneymap
     def recognized_transactions
       all_transactions
         .select{|t| t[:amount] =~ AMOUNT_RX }
-        .map{|t| t.merge(:amount => t[:amount].gsub(/\./,'').to_f) }
+        .map{|t| t.merge(:amount => t[:amount].to_f) }
     end
 
     def unrecognized_transactions
@@ -48,4 +48,6 @@ module Moneymap
 end # module Moneymap
 require 'moneymap/source/belfius'
 require 'moneymap/source/bnp'
+require 'moneymap/source/bnp2'
+require 'moneymap/source/loop'
 require 'moneymap/source/auto'

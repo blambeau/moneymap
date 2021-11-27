@@ -18,10 +18,10 @@ module Moneymap
     end
 
     def classify(enum)
-      enum.map do |t|
+      enum.map{|t|
         rule = rules.find{|r| r === t }
         t.merge(rule ? rule.call(t) : { category: "Unclassified", subcategory: "All" })
-      end
+      }
     end
 
   end # class Rules
